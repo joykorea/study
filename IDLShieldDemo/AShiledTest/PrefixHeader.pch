@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  AShiledTest
+//
+//  Created by baidu on 2017/10/30.
+//  Copyright © 2017年 baidu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+#define DEFAUT_COLOR [UIColor clearColor]
+
+#define SELECT_COLOR [UIColor colorWithRed:0.7 green:1 blue:1 alpha:1]
+//翠绿色
+#define SUCESS_COLOR [UIColor colorWithRed:0.0 green:201/255.0 blue:87/255.0 alpha:1]
+//番茄红
+#define FALSE_COLOR [UIColor colorWithRed:1 green:99/255.0 blue:71/255.0 alpha:1]
+//其他结果
+#define OTHER_COLOR [UIColor colorWithRed:1 green:215/255.0 blue:0.0 alpha:1]
+
+#import <AShiledLibrary/AShiledLibrary.h>
+
+
+//目录名字
+#define OneLevelNameArr  @[@"1-功能",@"2- 性能"]
+
+#define One_TwoLevelNameArr @[@"registerWithImage",@"livenessWithImage"]
+
+
+
+static NSString *teResoultKey = @"teResoult";
+static NSString *useTimeKey = @"useTime";
+static NSString *RKey = @"R";
+static NSString *GKey = @"G";
+static NSString *BKey = @"B";
+static NSString *RGBKey = @"RGB";
+static NSString *successFunctionPictureKey = @"successFunctionPicture";
+static NSString *failFunctionPictureKey = @"failFunctionPicture";
+static NSString *blockFunctionPictureKey = @"blockFunctionPicture";
+static NSString *totlesFunctionPictureKey = @"totlesFunctionPicture";
+static NSString *functionArrKey = @"functionArr";
+
+
+static NSString *minTimeKey = @"minTime";
+static NSString *maxTimeKey = @"maxTime";
+static NSString *totleTimeKey = @"totleTime";
+static NSString *successPerformancePictureKey = @"successPerformancePicture";
+static NSString *failPerformancePictureKey = @"failPerformancePicture";
+static NSString *blockPerformancePictureKey = @"blockPerformancePicture";
+static NSString *totlesPerformancePictureKey = @"totlesPerformancePicture";
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
